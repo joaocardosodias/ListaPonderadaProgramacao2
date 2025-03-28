@@ -442,11 +442,5 @@ Função MultiplicarMatrizesInvestimento(matrizA, matrizB):
 
     Retornar matrizResultado  
 
-# Exemplo de uso da função  
-investimentos <- [[1000, 2000], [1500, 2500]]  
-fatoresCrescimento <- [[1.1, 0.9], [1.2, 1.3]]  
 
-impactoFinanceiro <- MultiplicarMatrizesInvestimento(investimentos, fatoresCrescimento)  
-Escrever("Impacto financeiro dos investimentos:")  
-ImprimirMatriz(impactoFinanceiro)  
 ```
